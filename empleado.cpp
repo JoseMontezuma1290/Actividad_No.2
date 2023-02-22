@@ -10,7 +10,7 @@ class Empleado : Person{
 		public :
 			Empleado(){
 			}
-			Empleado(string cod, string puesto, string nom, string apell, string direcc, string dat, int tele, string n):Person(nom,apell,direcc,dat,tele){
+			Empleado(string cod, string puesto, string nom, string apell, string direcc, string dat, int tele):Person(nom,apell,direcc,dat,tele){
 				cod_emp = cod;
 				pues = puesto;
 								
