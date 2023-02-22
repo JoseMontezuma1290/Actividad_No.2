@@ -44,5 +44,10 @@ main(){
 	obj2.setCod(cod);
 	obj2.mostrar();
 	
+	cout<<"Ing. Nuevo Puesto a ocupar"<<endl;
+	cin>>pues;
+	obj2.setPuesto(pues);
+	obj2.mostrar();
+	
 	
 }

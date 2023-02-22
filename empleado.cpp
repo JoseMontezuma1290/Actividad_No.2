@@ -26,8 +26,8 @@ class Empleado : Person{
 		void setTelefono(int tele){telefono=tele;}
 		
 	// get (mostrar)
-	    string getCod(string cod){cod_emp=cod;}
-		string getPuesto(string puesto){pues=puesto;}
+	    string getCod(string cod){return cod_emp;}
+		string getPuesto(string puesto){return pues;}
 		string getNombres(){return nombres;}
 		string getApellidos(){return apellidos;}
 		string getDireccion(){return direccion;}
